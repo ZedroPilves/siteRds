@@ -1,0 +1,78 @@
+:root{
+    --cor1: #F72585;
+    --cor2: #B5179E;
+    --cor3: #7209B7;
+    --cor4: #560BAD;
+    --cor5: #480CA8;
+    --cor6: #3A0CA3;
+    --cor7: #3F37C9;
+    --cor8: #4361EE;
+    --cor9: #4895EF;
+   --cor10: #4CC9F0;
+}
+
+body{
+    background: linear-gradient(180deg, var(--cor6), var(--cor1));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header{
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    padding-right: 80em;
+    padding-left: 5em;
+}
+.header a{
+    color: var(--cor10);
+    text-decoration: none;
+}
+.header a:hover{
+
+    text-decoration:underline;
+    color: var(--cor8);
+
+   
+
+}
+.title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.blocks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bloco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.bloco img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+.texto {
+    max-width: 550px;
+    margin: 0 auto; 
+}
+
+footer{
+    text-align: center;
+    padding-top: 5em;
+}
